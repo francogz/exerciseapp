@@ -1,3 +1,14 @@
+# Como funciona REDUX
+
+Redux es un Framework que nos ayuda principalmente para el manejo de estados y como hacerlos fluir entre componentes de manera ordenada.
+
+Se suele utilizar para aplicaciones grandes, donde el manejo de los estados y sus acciones puede ser confusa.
+
+Su sintaxis se puede definir como en 3 partes en donde tenemos la store, los reducers y sus acciones, estas tres partes se relacionan entre si para hacer fluir los estados
+
+donde un evento se guarda en las acciones, esas acciones se pasan a la store y de ahí esas acciones se pasan al reducer. En el cual el reducer hace los cambios necesarios que esa acción le indica para devolverle a la store esa acción con los nuevos estado y así poder recibir los componentes esos cambios.
+
+
 # This proyect uses JSON Server for the database
 
 # `npm install -g json-server`
